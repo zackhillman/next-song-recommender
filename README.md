@@ -10,9 +10,7 @@ source env/bin/activate
 pip3 install -r requirements.txt
 ```
 
-*Note: You can deactivate the virtual environment:*
-
-`deactivate`
+*Note: You can deactivate the virtual environment:* `deactivate`
 
 #### Authentication
 
@@ -26,6 +24,15 @@ created credentials.
 echo "export SPOTIPY_CLIENT_ID={Client ID}" >> .auth
 echo "export SPOTIPY_CLIENT_SECRET={Client Secret}" >> .auth
 ```
+
+Now your `.auth` file should now look something like this:
+
+```
+export SPOTIPY_CLIENT_ID=an1XGYYM87XKEaFlyow9lv5nyJpo7Xri
+export SPOTIPY_CLIENT_SECRET=Tgjg6yp93VqfqZXBUlUXtB2gcbdufMTW
+```
+
+
 
 You should now be all set to run: `./run_scraper.sh`. You should see a list of playlists curated by spotify:
 
