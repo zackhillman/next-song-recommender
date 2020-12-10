@@ -1,3 +1,23 @@
+
+### Overview
+
+#### Code
+
+[Matrix Factorization](matrix_factorization.md)
+
+[Word2Vec](word2vec.md)
+
+#### Data
+
+*Scrapped Data*
+Follow the instructions below to scrape the data
+
+*Spotify Million Playlist*
+The dataset can be accessed [here](https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge)
+
+
+
+
 ### Installation
 
 #### Dependencies
