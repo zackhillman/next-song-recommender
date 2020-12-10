@@ -61,12 +61,4 @@ export SPOTIPY_CLIENT_SECRET=Tgjg6yp93VqfqZXBUlUXtB2gcbdufMTW
 
 
 
-You should now be all set to run: `./run_scraper.sh`. You should see a list of playlists curated by spotify:
-
-```
-$ ./run_scraper.sh
-   1 spotify:playlist:37i9dQZF1DXcBWIGoYBM5M Today's Top Hits
-   2 spotify:playlist:37i9dQZF1DX0XUsuxWHRQd RapCaviar
-   3 spotify:playlist:37i9dQZF1DX1lVhptIYRda Hot Country
-   ...
-```
+You should now be all set to run: `./run_scraper.sh`.
