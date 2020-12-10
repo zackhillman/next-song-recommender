@@ -9,10 +9,10 @@
 
 #### Data
 
-*Scrapped Data*
+**Scrapped Data**
 Follow the instructions below to scrape the data
 
-*Spotify Million Playlist*
+**Spotify Million Playlist**
 The dataset can be accessed [here](https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge)
 
 
@@ -20,7 +20,7 @@ The dataset can be accessed [here](https://www.aicrowd.com/challenges/spotify-mi
 
 ### Installation
 
-#### Dependencies
+#### Setup
 Create virtual environment, activate it, and install dependencies:
 
 *From inside the repo directory:*
@@ -31,6 +31,13 @@ pip3 install -r requirements.txt
 ```
 
 *Note: You can deactivate the virtual environment:* `deactivate`
+
+Create dataset directoriess:
+
+```
+mkdir -p datasets/spotify
+mkdir datasets/spotify2018
+```
 
 #### Authentication
 

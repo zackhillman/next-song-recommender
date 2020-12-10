@@ -11,7 +11,6 @@ for user in users:
     playlists = sp.user_playlists(user)
     while playlists:
         for i, playlist in enumerate(playlists['items']):
-            #print(playlist)
             songs = sp.user_playlist_tracks(user, playlist['id'])
             while songs:
                 for song in songs['items']:
@@ -22,5 +21,4 @@ for user in users:
             playlists = None
 
 df = pd.concat(data, ignore_index=True)
-df.head()
 df.to_csv('datasets/spotify/spotify_scraped_dataset.csv')
